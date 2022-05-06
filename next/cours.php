@@ -192,13 +192,10 @@ $numeric = 20;
 
 if($numeric == 8){
     echo "<br/>La valeur de numéric est 8";
-
 } elseif($numeric == 20){
     echo "<br/>La valeur de numéric est 20";
-
 } elseif($numeric > 15){
     echo "<br/>La valeur de numéric est 30";
-    
 } else { // Une condition qui s'exécute SI et seulement SI le if ne s'execute pas
     echo "<br/>On entre dans le else";
 }
