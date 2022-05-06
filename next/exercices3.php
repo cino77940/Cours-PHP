@@ -3,10 +3,19 @@
         Créez une fonction qui permet d'afficher simplement le contenu d'une variable transmise
     */
     
-    
+    function afficheContenu($mavariable){
+        echo $mavariable;
+    }
+    afficheContenu ("Bonjour à tous !");
     /*
         Créez une fonction qui permet de multiplier deux nombres et RETOURNER (return) son résultat
     */
+
+function multiplier($nb1 = 0, $nb2=0){
+    
+    return $nb1 * $nb2;
+}
+echo "<br/>" .multiplier (6, 2);
 
     /*
         Créez une fonction qui permet de prendre 3 paramètres :
@@ -22,5 +31,10 @@
         3e info = 2
     */
 
+    function renvoiResultat ($nb1 = 0, $nb2= 0, $nb3 =0){
+        return($nb1 + $nb2) * $nb3;
+    }
+    echo "<br/> Résultat du calcul :" .renvoiResultat (10, 20, 2);
 
-?>c
+
+?>
